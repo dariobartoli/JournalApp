@@ -11,6 +11,7 @@ export const NothingSelectedView = () => {
     alignItems='center'
     justifyContent='center'
     sx={{minHeight: 'calc(100vh - 100px)', backgroundColor: 'primary.main', borderRadius: 3}}
+    className="animate__animated animate__fadeIn animat__faster"
     >
         <Grid item xs={12}>
             <StarOutlined sx={{fontSize: 100, color: 'white'}}/>
